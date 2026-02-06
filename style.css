@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* HERO */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: radial-gradient(circle at top, #2b2f3a, #020617);
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #ff6a3d;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* KONTAKT */
+.contact{
+  padding: 80px 20px;
+  background: #0f172a;
+  text-align: center;
+}
+
+.contact-email a{
+  color: #60a5fa;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
