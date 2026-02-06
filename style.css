@@ -1,3 +1,4 @@
+/* OSNOVNO */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -5,7 +6,7 @@ body {
   color: #e5e7eb;
 }
 
-/* HERO */
+/* HERO SEKCIJA */
 .hero {
   min-height: 70vh;
   display: flex;
@@ -41,16 +42,63 @@ body {
   font-weight: bold;
 }
 
+/* SEKCIJE */
+.section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.lead {
+  max-width: 820px;
+  margin: 0 auto 26px;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+/* KARTICE */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  padding: 18px;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 /* KONTAKT */
-.contact{
+.contact {
   padding: 80px 20px;
   background: #0f172a;
   text-align: center;
 }
 
-.contact-email a{
+.contact-email a {
   color: #60a5fa;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+}
+
+/* MOBITEL */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
