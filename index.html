@@ -1,52 +1,155 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tommy Theidey | Web Designer</title>
+  <meta name="google-site-verification" content="dFIrUD0OLfZVgjNvR2FtaQ1DK3MVdGiowLa4NT3fINE" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<style>
-body{
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#0d0d0d;
-    color:white;
-    text-align:center;
-}
+  <title>Tommy Theidey – Web stranice za male biznise</title>
 
-header{
-    padding:60px 20px;
-}
+  <!-- SEO -->
+  <meta name="description" content="Izrada modernih web stranica za male biznise. Brze, pregledne i prilagođene mobitelima." />
+  <meta name="author" content="Tommy Theidey" />
 
-h1{
-    font-size:48px;
-    margin-bottom:10px;
-}
-
-p{
-    font-size:20px;
-    color:#aaa;
-}
-
-button{
-    margin-top:30px;
-    padding:15px 35px;
-    font-size:18px;
-    border:none;
-    border-radius:8px;
-    background:#ffcc00;
-    cursor:pointer;
-}
-</style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-<header>
-<h1>Tommy Theidey</h1>
-<p>Professional Web Designer</p>
-<button>Contact Me</button>
-</header>
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#">
+        <span class="logo" aria-hidden="true"></span>
+        <span>Tommy Theidey</span>
+      </a>
+
+      <nav class="navlinks" aria-label="Navigacija">
+        <a href="#zasto">Zašto ja</a>
+        <a href="#usluge">Cijene</a>
+        <a href="#projekti">Projekti</a>
+        <a class="nav-cta" href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="badge">⚡ Besplatna procjena • Odgovor u 24h</div>
+
+      <h1>
+        Izrađujem moderne web stranice<br />
+        za male biznise
+      </h1>
+
+      <p class="hero-text">
+        Brze, pregledne i prilagođene mobitelima.<br />
+        Javi se i dobit ćeš besplatnu procjenu.
+      </p>
+
+      <div class="trust">
+        <div class="trust-item">⚡ Brza izrada</div>
+        <div class="trust-item">📱 Prilagođeno mobitelu</div>
+        <div class="trust-item">✅ Odgovor u 24h</div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#kontakt" class="btn btn-primary">Zatraži ponudu</a>
+        <a href="#usluge" class="btn btn-secondary">Pogledaj cijene</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ZAŠTO JA -->
+  <section class="section" id="zasto">
+    <div class="container">
+      <h2>Zašto baš ja?</h2>
+      <ul class="benefits">
+        <li>Jednostavna i jasna komunikacija</li>
+        <li>Moderan i čist dizajn</li>
+        <li>Web stranice prilagođene mobitelima</li>
+        <li>Bez skrivenih troškova</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- USLUGE -->
+  <section class="section section-dark" id="usluge">
+    <div class="container">
+      <h2>Usluge i cijene</h2>
+
+      <div class="pricing">
+        <div class="price-card">
+          <h3>Basic</h3>
+          <p class="price">150 – 250 €</p>
+          <p class="muted">Jednostavna web stranica (1 stranica)</p>
+        </div>
+
+        <div class="price-card">
+          <h3>Standard</h3>
+          <p class="price">300 – 600 €</p>
+          <p class="muted">3–5 stranica, moderan dizajn</p>
+        </div>
+
+        <div class="price-card">
+          <h3>Premium</h3>
+          <p class="price">700 €+</p>
+          <p class="muted">Landing page + optimizacija</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJEKTI -->
+  <section class="section" id="projekti">
+    <div class="container">
+      <h2>Primjeri projekata</h2>
+      <p class="center muted">
+        Demo projekti koji prikazuju moj stil i znanje.
+      </p>
+
+      <ul class="projects">
+        <li>Osobna web stranica (portfolio)</li>
+        <li>Landing page za uslugu</li>
+        <li>Mini JavaScript projekt</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- KAKO RADIMO -->
+  <section class="section section-dark" id="kako">
+    <div class="container">
+      <h2>Kako radimo</h2>
+      <ol class="steps">
+        <li>Dogovor i sadržaj</li>
+        <li>Dizajn i izrada</li>
+        <li>Objava i podrška</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section contact" id="kontakt">
+    <div class="container">
+      <h2>Kontakt</h2>
+      <p class="muted">
+        Zanima te web stranica?<br />
+        Javi se na email ispod i odgovaram u roku 24 sata.
+      </p>
+
+      <p class="contact-email">
+        📧 <a href="mailto:tommytheidey@gmail.com">tommytheidey@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      © 2026 Tommy Theidey
+    </div>
+  </footer>
 
 </body>
 </html>
+
